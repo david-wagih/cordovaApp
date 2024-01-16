@@ -5,7 +5,6 @@
   "description": "A sample Apache Cordova application that responds to the deviceready event.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build:ios": "cordova platform add ios && cordova build ios"
   },
   "keywords": [
@@ -17,7 +16,7 @@
     "cordova-android": "^12.0.1",
     "cordova-ios": "^7.0.1",
     "cordova-plugin-add-swift-support": "^2.0.2",
-    "mf-ni-wrapper": "github:david-wagih/mf-ni-wrapper"
+    "mf-ni-wrapper": "github:moneYOUnion/mf-ni-card-management-wrapper"
   },
   "cordova": {
     "platforms": [
