@@ -19,10 +19,7 @@
     "mf-ni-wrapper": "github:moneYOUnion/mf-ni-card-management-wrapper"
   },
   "cordova": {
-    "platforms": [
-      "android",
-      "ios"
-    ],
+    "platforms": [],
     "plugins": {
       "mf-ni-wrapper": {}
     }
