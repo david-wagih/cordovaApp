@@ -5,7 +5,8 @@
   "description": "A sample Apache Cordova application that responds to the deviceready event.",
   "main": "index.js",
   "scripts": {
-    "build:ios": "cordova platform add ios && cordova build ios"
+    "build:ios": "cordova platform add ios && cordova build ios",
+    "build:android": "cordova platform add android && cordova build android"
   },
   "keywords": [
     "ecosystem:cordova"
@@ -19,7 +20,9 @@
     "mf-ni-wrapper": "github:moneYOUnion/mf-ni-card-management-wrapper"
   },
   "cordova": {
-    "platforms": [],
+    "platforms": [
+      "android"
+    ],
     "plugins": {
       "mf-ni-wrapper": {}
     }
