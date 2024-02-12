@@ -17,7 +17,7 @@
     "cordova-android": "^12.0.1",
     "cordova-ios": "^7.0.1",
     "cordova-plugin-add-swift-support": "^2.0.2",
-    "mf-ni-wrapper": "github:moneYOUnion/mf-ni-card-management-wrapper"
+    "mf-ni-wrapper": "github:david-wagih/mf-ni-card-management-wrapper"
   },
   "cordova": {
     "platforms": [
