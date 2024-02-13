@@ -83,6 +83,9 @@ android {
             withSourcesJar()
         }
     }
+    buildFeatures {
+        dataBinding = true
+    }
 }
 
 dependencies {

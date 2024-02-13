@@ -55,7 +55,7 @@ public class MainActivity extends CordovaActivity implements SetPinFragment.OnFr
         }
 
         // Set by <content src="index.html" /> in config.xml
-        loadUrl(launchUrl);
+        // loadUrl(launchUrl);
     };
 
     private void showDialog() {
