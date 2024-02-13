@@ -1,5 +1,6 @@
 package cordova.plugin.MfNiWrapperPlugin
 
+// import com.moneyfellows.mobileapp.stage.R
 import ae.network.nicardmanagementsdk.api.interfaces.SuccessErrorCancelResponse
 import ae.network.nicardmanagementsdk.api.models.input.NICardAttributes
 import ae.network.nicardmanagementsdk.api.models.input.NIConnectionProperties
@@ -17,7 +18,6 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.DialogFragment
 import com.example.cordovaApp.R
-// import com.moneyfellows.mobileapp.stage.R
 import cordova.plugin.MfNiWrapperPlugin.MfNiWrapperPlugin.Companion.TAG
 
 
@@ -54,6 +54,8 @@ class MfNiWrapperActivity : AppCompatActivity(), SetPinFragment.OnFragmentIntera
        dialog.show(supportFragmentManager, SetPinFragmentFromActivity.TAG)
      }
   }
+
+
 
   override fun onResume() {
     super.onResume()
