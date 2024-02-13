@@ -1,0 +1,44 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<preference name=\"GradlePluginKotlinEnabled\" value=\"true\" />",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"MfNiWrapperPlugin\"><param name=\"android-package\" value=\"cordova.plugin.MfNiWrapperPlugin.MfNiWrapperPlugin\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "mf-ni-wrapper": {
+      "PACKAGE_NAME": "com.example.cordovaApp"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "id": "mf-ni-wrapper.plugin",
+      "file": "plugins/mf-ni-wrapper/www/plugin.js",
+      "pluginId": "mf-ni-wrapper",
+      "clobbers": [
+        "MfNiWrapperPlugin"
+      ],
+      "runs": true
+    }
+  ],
+  "plugin_metadata": {
+    "mf-ni-wrapper": "1.0.0"
+  }
+}

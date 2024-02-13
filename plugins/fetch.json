@@ -1,0 +1,10 @@
+{
+  "mf-ni-wrapper": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/david-wagih/mf-ni-card-management-wrapper.git"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}
