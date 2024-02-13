@@ -42,17 +42,17 @@ class MfNiWrapperActivity : AppCompatActivity(), SetPinFragment.OnFragmentIntera
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
      setContentView(R.layout.activity_mf_ni_wrapper)
-//     val openDialogButton: Button = findViewById(R.id.openDialogButton)
-//
-//     openDialogButton.setOnClickListener {
-// //        val dialogFragment = MyDialogFragment()
-// //        dialogFragment.show(supportFragmentManager, "myDialogTag")
-//
-//       // todo: there is an issue showing this dialog here.
-//       val dialog = SetPinFragmentFromActivity.newInstance(niInput, pinLength)
-//       Log.d(TAG, supportFragmentManager.toString())
-//       dialog.show(supportFragmentManager, SetPinFragmentFromActivity.TAG)
-//     }
+     val openDialogButton: Button = findViewById(R.id.openDialogButton)
+
+     openDialogButton.setOnClickListener {
+ //        val dialogFragment = MyDialogFragment()
+ //        dialogFragment.show(supportFragmentManager, "myDialogTag")
+
+       // todo: there is an issue showing this dialog here.
+       val dialog = SetPinFragmentFromActivity.newInstance(niInput, pinLength)
+       Log.d(TAG, supportFragmentManager.toString())
+       dialog.show(supportFragmentManager, SetPinFragmentFromActivity.TAG)
+     }
   }
 
   override fun onResume() {
